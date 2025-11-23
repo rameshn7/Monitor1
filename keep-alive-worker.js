@@ -2,9 +2,8 @@
 export default {
     async scheduled(event, env, ctx) {
         const urls = [
-            'https://yoursite.com',
-            'https://yoursite.com/',
-            'https://yoursite.com/api/health' // Add your specific endpoints
+            'https://evident-petrina-urlsave-2998df90.koyeb.app/'
+             // Add your specific endpoints
         ];
 
         console.log(`🕒 Starting keep-alive ping at ${new Date().toISOString()}`);
