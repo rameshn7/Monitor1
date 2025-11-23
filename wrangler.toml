@@ -1,0 +1,15 @@
+name = "keep-alive-worker"
+main = "keep-alive-worker.js"
+compatibility_date = "2023-10-01"
+
+[triggers]
+crons = ["* * * * *"]  # Runs every minute
+
+[env.vars]
+SITE_URL = "https://yoursite.com"
+ENVIRONMENT = "production"
+
+# Optional: Add secrets for notifications
+# [[env.vars]]
+# name = "SLACK_WEBHOOK_URL"
+# type = "secret"
